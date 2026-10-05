@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment & secrets
+.env
+backend/.env
+frontend/.env
+frontend/.env.local
+
+# Build & runtime
+frontend/dist/
+backend/uploads/
+backend/chroma_db/
+*.db
+backend/janmitra.db
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
